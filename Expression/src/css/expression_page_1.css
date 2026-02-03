@@ -1,0 +1,118 @@
+*{
+    color: white;
+    font-family: 'Times New Roman';
+}
+
+body{
+    background-image: url(../asset/main_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.font_family{
+    font-family: mogena;
+}
+
+.yellow_fonts{
+    color: rgb(255, 206, 12);
+}
+
+.width_fit_size{
+    width: fit-content;
+}
+
+.placeholder_text_white::placeholder{
+    color: white;
+}
+
+.btn_bg_gradient{
+    background: linear-gradient(to bottom right, #F4BDF6, #529AF4);
+}
+
+
+/* navbar section */
+
+.flex_responsive_center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex_responsive_between{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.width_100_responsive{
+    width: 100%;
+}
+
+.full_radious{
+    border-radius: 100px;
+}
+
+.overflow_X{
+    overflow-x: scroll;
+}
+
+.overflow_X::-webkit-scrollbar {
+  display: none;
+}
+
+.card_bg_color{
+    background-color: #161A24;
+}
+
+
+
+
+
+/* review section  */
+
+.review_div{
+    min-width: 650px;
+    max-width: 650px;
+}
+
+.review_div img{
+    width: 40px;
+    height: 40px;
+}
+
+
+
+/* footer section  */
+
+.footer_bg{
+    background-image: url(../asset/footer_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.title_padding{
+    padding-top: 250px;
+}
+
+
+/* resposive section  */
+
+@media (max-width: 991px) {
+.flex_responsive_center{
+    display: unset;
+    align-items: unset;
+    justify-content: unset;
+}
+
+.flex_responsive_between{
+    display: unset;
+    align-items: unset;
+    justify-content: unset;
+}
+
+.width_100_responsive{
+    width: unset;
+} 
+}
